@@ -49,27 +49,60 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .course {
     border-bottom: 2px solid black;
     display: flex;
     flex-wrap: wrap;
 }
+
 .course .title {
-  flex: 0 0 33.3%;
-  max-width: 33%
+    flex: 0 0 33.3%;
+    max-width: 33%
 }
+
 .course .description {
-  flex: 0 0 66.6%;
-  max-width: 66.6%;
+    flex: 0 0 66.6%;
+    max-width: 66.6%;
 }
-.course .descrition p {
-  padding-left: 1em;
+
+.course .description p {
+    padding-left: 1em;
 }
+
 .skills {
     border-bottom: 2px solid black;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.skills .column {
+    flex: 0 0 33.3%;
+    max-width: 33%;
+}
+
+
+.skills .column ul {
+    padding-left: 2em;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.ulist {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.ulist > li {
+    padding-left: 1.5em;
+}
+
+ul.list > li:before {
+    content: "-";
+    padding-right: 0.5em;
+}
+
 .education {
     border-bottom: 2px solid black;
-
-
