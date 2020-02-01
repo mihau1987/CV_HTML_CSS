@@ -44,3 +44,18 @@ p {
     left: 640px;
 
 }
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.course {
+    border-bottom: 2px solid black;
+}
+.skills {
+    border-bottom: 2px solid black;
+}
+.education {
+    border-bottom: 2px solid black;
+
+}
