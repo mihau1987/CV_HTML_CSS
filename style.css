@@ -38,7 +38,7 @@ header section {
     max-width: 640px;
 }
 
-p {
+header p {
     line-height: 2;
     position: relative;
     left: 640px;
@@ -51,11 +51,25 @@ h3 {
 }
 .course {
     border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.course .title {
+  flex: 0 0 33.3%;
+  max-width: 33%
+}
+.course .description {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+.course .descrition p {
+  padding-left: 1em;
 }
 .skills {
     border-bottom: 2px solid black;
+    
 }
 .education {
     border-bottom: 2px solid black;
 
-}
+
