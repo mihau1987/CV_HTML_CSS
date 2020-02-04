@@ -94,8 +94,9 @@ ul {
 .education {
     border-bottom: 2px solid black;
     text-transform: capitalize;
-    
+
 }
+
 .education span {
     font-style: italic;
 }
@@ -103,15 +104,19 @@ ul {
 .expe span {
     font-style: italic;
 }
+
 .position span {
     font-weight: bold;
 }
+
 .stack span {
     font-weight: bold;
 }
+
 .ulistII {
     padding-left: 2em
 }
+
 footer {
     text-align: center;
     font-size: 40px;
@@ -126,5 +131,16 @@ footer a {
 }
 
 a:hover {
-  opacity: 0.5;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+    .course {
+        display: block;
+    }
+
+    .course .title,
+    .course .descrition {
+        max-width: 100%;
+    }
 }
