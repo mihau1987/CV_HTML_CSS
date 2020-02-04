@@ -22,8 +22,6 @@ header {
 header img {
     max-width: 150px;
     border-radius: 50%;
-    position: relative;
-    left: 850px;
 }
 
 
@@ -40,9 +38,7 @@ header section {
 
 header p {
     line-height: 2;
-    position: relative;
-    left: 640px;
-
+    text-align: center;
 }
 
 h3 {
@@ -124,6 +120,7 @@ footer {
     background-color: grey;
     color: white;
     padding: 20px;
+    border: 2px solid black;
 }
 
 footer a {
