@@ -23,7 +23,7 @@ header img {
     max-width: 150px;
     border-radius: 50%;
     position: relative;
-    left: 860px;
+    left: 850px;
 }
 
 
@@ -98,4 +98,17 @@ ul {
 }
 .education span {
     font-style: italic;
+}
+
+.expe span {
+    font-style: italic;
+}
+.position span {
+    font-weight: bold;
+}
+.stack span {
+    font-weight: bold;
+}
+.ulistII {
+    padding-left: 2em
 }
